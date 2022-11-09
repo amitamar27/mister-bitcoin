@@ -1,0 +1,24 @@
+.homePage-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+
+    .userInfo {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        span {
+            display: flex;
+            align-items: center;
+            gap: 17px;
+
+        }
+
+        img {
+            width: 30px;
+            order: -1;
+        }
+    }
+}

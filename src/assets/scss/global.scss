@@ -1,0 +1,43 @@
+// Externals
+
+// Setup
+@import "setup/variables";
+@import "setup/functions";
+@import "setup/mixins";
+
+// Basics
+@import "basics/typography";
+@import "basics/base";
+@import "basics/helpers";
+@import "basics/layout";
+@import "basics/modals";
+@import "basics/animations";
+
+// Pages
+@import "pages/homePage";
+@import "pages/contactPage";
+@import "pages/DetailsPage";
+@import "pages/statistics";
+@import "pages/contactEdit";
+@import "pages/signUp";
+
+
+// Components
+@import "cmps/app-header";
+@import "cmps/contactList";
+@import "cmps/contactPreview";
+@import "cmps/filter-contact";
+@import "cmps/transferFund";
+@import "cmps/movesList";
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+.app-header {
+    background: #03a9f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 0px 9px 1px #00000094;
+
+    .logo{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    ul{
+        display: flex;
+            margin: 0;
+            height: 50px;
+            padding: 0;
+    }
+
+    li{
+         display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-inline: 15px;
+        position: relative;
+        list-style: none;
+        font-weight: bold;
+        cursor: pointer;
+        &::after {
+            transition: height 0.3s ease-in-out;
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 0;
+            width: 100%;
+            background-color: rgb(218, 199, 223);
+        }
+        &:hover::after {
+            height: 4px;
+        }
+        &:hover{
+            color: rgb(218, 199, 223);;
+        }
+    }
+    
+    
+}

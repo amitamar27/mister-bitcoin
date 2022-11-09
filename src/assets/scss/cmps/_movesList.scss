@@ -1,0 +1,11 @@
+.moves-container{
+        overflow-y: scroll;
+        height: 400px;
+        border: 1px solid grey;
+        border-radius: 3px;
+        padding: 12px;
+
+        .inner-moves{
+            margin: 16px 0 16px 0;
+        }
+}

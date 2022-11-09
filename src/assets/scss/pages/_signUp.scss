@@ -1,0 +1,18 @@
+
+
+.signUp{
+        display: flex;
+        /* justify-content: center; */
+        margin: auto;
+        align-items: center;
+        flex-direction: column;
+        max-width: 450px;
+        padding: 122px;
+        background-color: aliceblue;
+        margin-top: 68px;
+        gap: 12px;
+
+    img{
+        width: 150px;
+    }
+}
